@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=RocknRoll+One&display=swap" rel="stylesheet"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="kankankankouMainStyle.css">
+        <link rel="shortcut icon" href="#">
+        <title>KanKanKankou | Lodging</title>
+    </head>
+    <body class="p-0">      
+        <main class="container-responsive min-vh-100"><!--container-->
+          <div id="headContent" class="position-sticky container jumbotron jumbtron-fluid text-center text-white min-vw-100 px-0">
+            <p class="fw-bolder pt-5"><a class="text-decoration-none text-white" href="index.html">KanKanKankou</a><br>
+          </div><!--end page title div-->
+          <nav class="h-100 position-fixed top-0 navbar-dark">
+            <div class="navbar container-fluid mt-4">
+              <button class="navbar-toggler" style="font-size: 2.25rem" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mt-2 fw-bolder" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="transportationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Transportation
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="transportationDropdown">
+                      <li><a class="dropdown-item" href="airplane.html">Airplane</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="shinkansen.html">Shinkansen</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="localTrains.html">Local Trains</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="cardsTickets.html">Smart Cards & Tickets</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="transportEtiquette.html">Travel Etiquette</a></li>
+                    </ul>
+                  </li><!--end transportation dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="lodgingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lodging
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="lodgingDropdown">
+                      <li><a class="dropdown-item" href="hotels.html">Hotels</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="airBnB.html">Airbnb</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="lodgingEtiquette.html">Lodging Etiquette</a></li>
+                    </ul>
+                  </li><!--end lodging dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="sightseeingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sightseeing
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="sightseeingDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="kansai.html">Kansai Region</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="kantou.html">Kanto Region</a>
+                      </li>
+                    </ul>
+                  </li><!--end sightseeing dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="foodDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Food
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="foodDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="placesEat.html">Places to Eat</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="dishes.html">Dishes to Try</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="diningEtiquette.html">Dining Etiquette</a>
+                      </li>
+                    </ul>
+                  </li><!--end food dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="generalInfoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      General Information
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="generalInfoDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="basicJpn.html">Basic Japanese</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="generalEtiquette.html">General Etiquette</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="conbini.html">Convenience Stores</a>
+                      </li>
+                    </ul>
+                  </li><!--end general information dropdown-->
+                </ul><!--end main menus for nav-->
+              </div><!--end inner container-->
+            </div><!--end outer container-->
+          </nav><!--end nav--> 
+          <div class="contentContainer pt-lg-5 pb-lg-0 pe-lg-5 pt-3 pb-0 pe-2">
+       		<span><p class="text-center">Lodging - Airbnb</p></span><br>
+            <div class="leftContent float-md-start">
+                <p class="w-100">
+                    Although the company has been around for over ten years, the concept of staying at or owning an Airbnb in Japan is a fairly
+                    recent concept. Even so, there are still many great properties to choose from with a variety of amenities available.<br><br>
+                    Some hosts will provide free pocket Wi-Fi for guests to use while they are sightseeing. There are also properties that
+                    have a more traditional atmosphere with tatami rooms by providing Japanese futons instead of beds, and others that provide
+                    a bicycle for convenience.<br><br>
+                    <img class="img-fluid w-50 d-lg-block d-none m-auto" src="mylene-larnaud-ZoPSn0WI94k-unsplash.jpg"><br><br>
+                    <b>If you aren't familiar with how an Airbnb works, here is a short guide:</b><br>
+                    <video id="airbnbGuide" class="float-start d-block pe-5 mt-5">
+                        <source src="howtoAirbnb.mp4" type="video/mp4">
+                    </video> 
+                </p><br>
+            </div><!--end left content-->
+            <div class="rightContent float-md-end">
+                <img class="img-fluid w-50 d-lg-block d-none m-auto" src="1ad51eb49c1b2be51f76d53adf69034d.gif"><br><br>
+                <p class="w-75 d-block m-auto">
+                    Airbnb is a great option for travel groups of all sizes, and may even be cheaper than staying at a hotel. The size of the 
+                    home can vary, so do not be surprised if the rooms are smaller than expected. 
+                    Many are equipped with a kitchen, washing machine, TV, and plenty of storage space&mdash;just like a regular home.<br><br>
+                    Homes in Japan typically do not have centralized heating or air conditioning, as it is very expensive. Because of this,
+                    homes tend to be quite cold in the winter. However, most rooms will have a heating and air unit available. <br><br>
+                    When booking your Airbnb, make note of how far the subway is to see if you are comfortable walking that distance. 
+                    While it is possible to get an Airbnb that is less than five minutes way from the nearest metro station, they usually come
+                    with a cost. You wouldn't want to have to worry about paying extra money for a taxi or Uber to get back home after a long 
+                    day of sightseeing if your feet aren't feeling comfortable.<br><br>
+                    Keep in mind that every Airbnb host has their own special set of rules for their home. Be sure to follow them accordingly,
+                    in addition to the <a class="link-dark fw-bold" href="lodgingEtiquette.html">lodging etiquette</a> guide on our website.
+                </p><br>
+                <a class="link-light text-decoration-none fw-bolder d-lg-inline d-none position-fixed bottom-0 end-0" href="#headContent"><button type="button" class="toTop btn btn-secondary btn-lg" id="scrollTopBtn">&uArr;</button></a>
+            </div><!--end right content-->
+          </div><!--end content container-->
+          <div class="myFooter">
+            <footer class="text-center">
+              &copy; CaRyn Newton 2022<br>
+              KanKanKanKou is not affiliated with any of the businesses mentioned or portrayed.
+            </footer>
+          </div>
+        </main><!--end main-->     
+
+        <!--start javascript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script>
+            var mybutton = document.getElementById("scrollTopBtn");
+
+            mybutton.style.display = "none";
+
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.documentElement.scrollTop > 500) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+        </script>
+        <script>
+            var video = document.getElementById("airbnbGuide");
+            video.addEventListener("canplay", function() {
+              setTimeout(function() {
+                video.play();
+              }, 2000);
+            });
+          </script>
+    </body>
+    
+</html>

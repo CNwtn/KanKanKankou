@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=RocknRoll+One&display=swap" rel="stylesheet"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="kankankankouMainStyle.css">
+        <link rel="shortcut icon" href="#">
+        <title>KanKanKankou | Food</title>
+    </head>
+    <body class="p-0">      
+        <main class="container-responsive min-vh-100"><!--container-->
+          <div id="headContent" class="position-sticky container jumbotron jumbtron-fluid text-center text-white min-vw-100 px-0">
+            <p class="fw-bolder pt-5"><a class="text-decoration-none text-white" href="index.html">KanKanKankou</a><br>
+          </div><!--end page title div-->
+          <nav class="h-100 position-fixed top-0 navbar-dark">
+            <div class="navbar container-fluid mt-4">
+              <button class="navbar-toggler" style="font-size: 2.25rem" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mt-2 fw-bolder" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="transportationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Transportation
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="transportationDropdown">
+                      <li><a class="dropdown-item" href="airplane.html">Airplane</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="shinkansen.html">Shinkansen</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="localTrains.html">Local Trains</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="cardsTickets.html">Smart Cards & Tickets</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="transportEtiquette.html">Travel Etiquette</a></li>
+                    </ul>
+                  </li><!--end transportation dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="lodgingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lodging
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="lodgingDropdown">
+                      <li><a class="dropdown-item" href="hotels.html">Hotels</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="airBnB.html">AirBnB</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="lodgingEtiquette.html">Lodging Etiquette</a></li>
+                    </ul>
+                  </li><!--end lodging dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="sightseeingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sightseeing
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="sightseeingDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="kansai.html">Kansai Region</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="kantou.html">Kanto Region</a>
+                      </li>
+                    </ul>
+                  </li><!--end sightseeing dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="foodDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Food
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="foodDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="placesEat.html">Places to Eat</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="dishes.html">Dishes to Try</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="diningEtiquette.html">Dining Etiquette</a>
+                      </li>
+                    </ul>
+                  </li><!--end food dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="generalInfoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      General Information
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="generalInfoDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="basicJpn.html">Basic Japanese</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="generalEtiquette.html">General Etiquette</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="conbini.html">Convenience Stores</a>
+                      </li>
+                    </ul>
+                  </li><!--end general information dropdown-->
+                </ul><!--end main menus for nav-->
+              </div><!--end inner container-->
+            </div><!--end outer container-->
+          </nav><!--end nav--> 
+          <div class="contentContainer pt-lg-5 pb-lg-0 pe-lg-5 pt-3 pb-0 pe-2">
+       		<span><p class="text-center">Food - Etiquette</p></span>
+               <img class="img-fluid w-50 d-lg-block d-none " src="">
+               <p>
+                   <b>There are a few important rules to remember when dining in Japan:</b><br><br>
+               </p>
+               <ol class="list-group list-group-numbered w-75 m-auto">
+                   <li class="list-group-item">If provided with a towel at your table, only use it to clean your hands.</li>
+                   <li class="list-group-item">Do not stick your chopsticks into a bowl of rice and leave them there.</li>
+                   <li class="list-group-item">Do not point or move dishes around using your chopsticks.</li>
+                   <li class="list-group-item">When eating food outdoors, stay in one area and do not leave any trash behind.</li>
+                   <li class="list-group-item">Do not tip.</li>
+                   <li class="list-group-item">Do not blow your nose at the table.</li>
+                   <li class="list-group-item">Do not drink your alcohol until everyone has a glass and is ready to drink.</li>
+               </ol><br>
+               <img class="img-fluid w-50 d-lg-block d-none" src="alva-pratt-a5ToDH34m0I-unsplash.jpg" style="margin-left: 22%"><br>
+               <p>
+                 <b>Here are some additional tips to keep in mind:</b> 
+               </p><br>
+               <ol class="list-group list-group-numbered w-75 m-auto">
+                   <li class="list-group-item">If you are out with friends or colleagues, pour drinks for them first, rather than yourself.</li>
+                   <li class="list-group-item">Say "itadakimasu" before your meal, and "gochisou-samadeshita" at the end.</li>
+                   <li class="list-group-item">Feel free to slurp your noodles. It is not frowned upon in Japan.</li>
+                   <li class="list-group-item">Pay at the counter unless otherwise noted.</li>
+                   <li class="list-group-item">If needed, there are typically baskets underneath chairs to place your bags and other belongings in.</li>
+                   <li class="list-group-item">At a traditional restaurant with tatami flooring, remove your shoes before entering.</li>
+               </ol><br>
+               <a class="link-light text-decoration-none fw-bolder d-lg-inline d-none position-fixed bottom-0 end-0" href="#headContent"><button type="button" class="toTop btn btn-secondary btn-lg" id="scrollTopBtn">&uArr;</button></a>
+          </div><!--end content container-->
+          <div class="myFooter">
+            <footer class="text-center">
+              &copy; CaRyn Newton 2022<br>
+              KanKanKanKou is not affiliated with any of the businesses mentioned or portrayed.
+            </footer>
+          </div>
+        </main><!--end main-->     
+          
+        <!--start javascript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script>
+            var mybutton = document.getElementById("scrollTopBtn");
+
+            mybutton.style.display = "none";
+
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.documentElement.scrollTop > 500) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+        </script>
+    </body>
+    
+</html>

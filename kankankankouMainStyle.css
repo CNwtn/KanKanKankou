@@ -1,0 +1,139 @@
+html {
+  font-size: 62.5%;
+}
+#headContent {
+  height: 50vh;
+  background: url('pexels-pierre-blaché-6058051.jpg') center/100% 100% no-repeat;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 5.5rem;
+}
+nav {
+  z-index: 1;
+}
+nav, nav button, nav ul {
+  background-color: rgba(112, 33, 41);
+}
+nav li > a {
+  font-size: 1.75rem;
+}
+.contentContainer {
+  padding-left: 8%;
+  font-size: 1.70rem;
+}
+.contentContainer span {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5rem;
+}
+.contentContainer > span p {
+  margin-right: 7%;
+}
+.contentContainer a:hover {
+  color: gray;
+}
+.leftContent, .rightContent {
+  height: 100%;
+  width: 50%;
+}
+.leftContent p, .rightContent p {
+  width: 75%;
+}
+.leftContent .accordion, .rightContent .accordion {
+  width: 75%;
+}
+.information img {
+  height: 40rem;
+  padding: 20px;
+}
+.information p {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.shinkansenVid {
+  height: 800px;
+}
+.carousel {
+  margin-left: 10%;
+}
+.carousel .carousel-inner img {
+  width: 100%;
+  height: 40em;
+  object-fit: cover;
+  overflow: hidden;
+}
+.loneImg {
+  width: 30%;
+}
+.loneListGroup {
+  margin-top: 25%;
+}
+.accordion-button {
+  font-size: 1.75rem;
+}
+.accordion .accordion-button {
+  background-color: gray;
+  color: white;
+}
+.sightseeingInfo {
+  width: 50%;
+}
+.toTop {
+  width: 60px;
+  border-radius: 10px;
+  font-size: 3rem;
+}
+ol li {
+  font-size: 2rem;
+}
+.card {
+  height: 100px;
+  width: 500px;
+}
+.myFooter {
+  width: 100%;
+  clear: both;
+  padding-top: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+  #headContent {
+    font-size: 3rem;
+  }
+  .contentContainer {
+    padding-left: 16%;
+    line-height: 120%;
+    font-size: 1.5rem;
+  }
+  .contentContainer span {
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  .leftContent {
+    width: 100%;
+    height: 75%;
+  }
+  .rightContent {
+    width: 100%;
+    height: 25%;
+  }
+  .leftContent p, .rightContent p {
+    width: 100%;
+  }
+  .leftContent .accordion, .rightContent .accordion {
+    width: 100%;
+  }
+  #airbnbGuide {
+    width: 100%;
+  }
+  .sightseeingInfo {
+    width: 100%;
+  }
+  .jpnInfo {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=RocknRoll+One&display=swap" rel="stylesheet"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="kankankankouMainStyle.css">
+        <link rel="shortcut icon" href="#">
+        <title>KanKanKankou | Food</title>
+    </head>
+    <body class="p-0">      
+        <main class="container-responsive min-vh-100"><!--container-->
+          <div id="headContent" class="position-sticky container jumbotron jumbtron-fluid text-center text-white min-vw-100 px-0">
+            <p class="fw-bolder pt-5"><a class="text-decoration-none text-white" href="index.html">KanKanKankou</a><br>
+          </div><!--end page title div-->
+          <nav class="h-100 position-fixed top-0 navbar-dark">
+            <div class="navbar container-fluid mt-4">
+              <button class="navbar-toggler" style="font-size: 2.25rem" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mt-2 fw-bolder" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="transportationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Transportation
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="transportationDropdown">
+                      <li><a class="dropdown-item" href="airplane.html">Airplane</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="shinkansen.html">Shinkansen</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="localTrains.html">Local Trains</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="cardsTickets.html">Smart Cards & Tickets</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="transportEtiquette.html">Travel Etiquette</a></li>
+                    </ul>
+                  </li><!--end transportation dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="lodgingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lodging
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="lodgingDropdown">
+                      <li><a class="dropdown-item" href="hotels.html">Hotels</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="airBnB.html">AirBnB</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="lodgingEtiquette.html">Lodging Etiquette</a></li>
+                    </ul>
+                  </li><!--end lodging dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="sightseeingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sightseeing
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="sightseeingDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="kansai.html">Kansai Region</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="kantou.html">Kanto Region</a>
+                      </li>
+                    </ul>
+                  </li><!--end sightseeing dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="foodDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Food
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="foodDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="placesEat.html">Places to Eat</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="dishes.html">Dishes to Try</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="diningEtiquette.html">Dining Etiquette</a>
+                      </li>
+                    </ul>
+                  </li><!--end food dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="generalInfoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      General Information
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="generalInfoDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="basicJpn.html">Basic Japanese</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="generalEtiquette.html">General Etiquette</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="conbini.html">Convenience Stores</a>
+                      </li>
+                    </ul>
+                  </li><!--end general information dropdown-->
+                </ul><!--end main menus for nav-->
+              </div><!--end inner container-->
+            </div><!--end outer container-->
+          </nav><!--end nav--> 
+          <div class="contentContainer pt-lg-5 pb-lg-0 pe-lg-5 pt-3 pb-0 pe-2">
+       		<span><p class="text-center">Food - Dishes to Try</p></span>
+            <img class="img-fluid d-lg-block d-none" src="foods.png" style="width: 60%; margin-left: 18%">
+            <div class="information h-25 m-auto">
+                <p class="text-center">
+                   <b>Japan is known for its sushi, tempura, fugu fish, and wagyu beef, but it has so much more to offer when it comes to food. Here are a few that you may not be familiar with:</b> 
+                </p><br><br>
+                <p>
+                    <span class="p-3 border border-5 border-dark rounded-pill">Chirashi</span><br><br>
+                    A cousin of sushi, chirashi is sliced, raw fish (<i>sashimi</i>) that lies on top of a bed of sushi rice. Being a seaside country, the chirashi in Japan is especially delicious,
+                    as it has a fresh taste. It is also known as "chirashizushi".<br><br><br><br>
+                    <span class="p-3 border border-5 border-dark rounded-pill">Takoyaki</span><br><br>
+                    Takoyaki is a popular street food in the Kansai region of Japan. It is a ball of fried batter that is typically filled with pieces of octopus, fried tempura bits, and other ingredients. After cooking, it is topped
+                    with takoyaki sauce, Japanese mayonnaise, aonori, and bonito flakes. There are also variations with toppings such as green onions and kimchi, or fillings including cheese and curry.<br><br><br><br>
+                    <span class="p-3 border border-5 border-dark rounded-pill">Gyukatsu</span><br><br>
+                    Gyukatsu is a beef cutlet that is typically made using wagyu beef. As it is usually not cooked well-done, diners are provided a stone grill to cook the meat to their liking. It is served with 
+                    vegetables, dipping sauce, and rice.
+                    <img class="img-fluid d-lg-block d-none m-auto" src="gyukatsu.png"><br>
+                    <span class="p-3 border border-5 border-dark rounded-pill">Okonomiyaki</span><br><br>
+                    Okonomi means "what you like" and yaki means "to grill", so it can be said that okonomiyaki is simply the ingredients that you like, grilled on a pan into a single dish. There are two variations on this dish:
+                    Kansai/Osaka and Hiroshima. In the Kansai region, all of the ingredients are mixed together and spread onto a grill, like a pancake. Once it has cooked on both sides, it is 
+                    topped with okonomiyaki sauce, mayonnaise, and any other toppings one desires. For the Hiroshima version, all of the ingredients are kept separate. A thin, crêpe-like layer is cooked first. Then, the 
+                    remaining ingredients are added layer-by-layer. Lastly, everything is placed on top of a bed of yakisoba noodles and covered with toppings.<br><br><br><br>
+                    <span class="p-3 border border-5 border-dark rounded-pill">Monjayaki</span><br><br>
+                    Monjayaki is Kanto's variation on okonomiyaki. They both use similar ingredients, however, monjayaki has a runnier consistency and is eaten with a small spatula.<br><br><br><br>
+                    <span class="p-3 border border-5 border-dark rounded-pill">Yakisoba Bread</span><br><br>
+                    This unique bread is a soft bun that has been sliced down the middle and filled with yakisoba noodle. It can be purchased at convenience stores and markets<br><br><br><br>
+                    <span class="p-3 border border-5 border-dark rounded-pill">Daifuku</span><br><br>
+                    Daifuku is filled mochi (<i>rice cake</i>). It is commonly filled with red bean paste, but it can be filled with fruits soybeans, or other ingredients.<br><br><br><br>
+                </p>
+            </div><!--end information section-->
+            <a class="link-light text-decoration-none fw-bolder d-lg-inline d-none position-fixed bottom-0 end-0" href="#headContent"><button type="button" class="toTop btn btn-secondary btn-lg" id="scrollTopBtn">&uArr;</button></a>
+          </div><!--end content container-->
+          <div class="myFooter">
+            <footer class="text-center">
+              &copy; CaRyn Newton 2022<br>
+              KanKanKanKou is not affiliated with any of the businesses mentioned or portrayed.
+            </footer>
+          </div>
+        </main><!--end main-->     
+          
+        <!--start javascript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script>
+            var mybutton = document.getElementById("scrollTopBtn");
+
+            mybutton.style.display = "none";
+
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.documentElement.scrollTop > 500) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+        </script>
+    </body>
+    
+</html>

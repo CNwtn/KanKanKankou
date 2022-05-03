@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=RocknRoll+One&display=swap" rel="stylesheet"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="kankankankouMainStyle.css">
+        <link rel="shortcut icon" href="#">
+        <title>KanKanKankou | Food</title>
+    </head>
+    <body class="p-0">      
+        <main class="container-responsive min-vh-100"><!--container-->
+          <div id="headContent" class="position-sticky container jumbotron jumbtron-fluid text-center text-white min-vw-100 px-0">
+            <p class="fw-bolder pt-5"><a class="text-decoration-none text-white" href="index.html">KanKanKankou</a><br>
+          </div><!--end page title div-->
+          <nav class="h-100 position-fixed top-0 navbar-dark">
+            <div class="navbar container-fluid mt-4">
+              <button class="navbar-toggler" style="font-size: 2.25rem" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mt-2 fw-bolder" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="transportationDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Transportation
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="transportationDropdown">
+                      <li><a class="dropdown-item" href="airplane.html">Airplane</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="shinkansen.html">Shinkansen</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="localTrains.html">Local Trains</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="cardsTickets.html">Smart Cards & Tickets</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="transportEtiquette.html">Travel Etiquette</a></li>
+                    </ul>
+                  </li><!--end transportation dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="lodgingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lodging
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="lodgingDropdown">
+                      <li><a class="dropdown-item" href="hotels.html">Hotels</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="airBnB.html">AirBnB</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="lodgingEtiquette.html">Lodging Etiquette</a></li>
+                    </ul>
+                  </li><!--end lodging dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="sightseeingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sightseeing
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="sightseeingDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="kansai.html">Kansai Region</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="kantou.html">Kanto Region</a>
+                      </li>
+                    </ul>
+                  </li><!--end sightseeing dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="foodDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Food
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="foodDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="placesEat.html">Places to Eat</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="dishes.html">Dishes to Try</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="diningEtiquette.html">Dining Etiquette</a>
+                      </li>
+                    </ul>
+                  </li><!--end food dropdown-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="generalInfoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      General Information
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="generalInfoDropdown">
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="basicJpn.html">Basic Japanese</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="generalEtiquette.html">General Etiquette</a>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <a class="dropdown-item" href="conbini.html">Convenience Stores</a>
+                      </li>
+                    </ul>
+                  </li><!--end general information dropdown-->
+                </ul><!--end main menus for nav-->
+              </div><!--end inner container-->
+            </div><!--end outer container-->
+          </nav><!--end nav--> 
+          <div class="contentContainer pt-lg-5 pb-lg-0 pe-lg-5 pt-3 pb-0 pe-2">
+       		<span><p class="text-center">Food - Places to Eat</p></span><br><br>
+            <div class="leftContent float-md-start">
+                <img class="img-fluid w-75 d-lg-block d-none m-auto" src="20191129_221018.jpg">
+                <img class="img-fluid w-75 d-lg-block d-none m-auto" src="20191128_140548.jpg">
+                <img class="img-fluid w-75 d-lg-block d-none m-auto" src="20191129_174911.jpg">
+                <img class="img-fluid w-75 d-lg-block d-none m-auto" src="20191124_215442.jpg">
+                <img class="img-fluid w-75 d-lg-block d-none m-auto" src="macchaHouse.png">
+                <img class="img-fluid w-75 d-lg-block d-none m-auto" src="meal1.png">
+            </div><!--end left content-->
+            <div class="rightContent float-md-end">
+                <span class="p-3 border border-5 border-dark rounded-pill">Kanto</span><br><br>
+                <p>
+                    <b>Tendon Tenya</b> is a tempura chain with various locations in Japan that specialized in tendon (<i>tempura over rice in a bowl</i>). Their menu has a 
+                    variety of freshly-made tempura, including shrimp, asparagus, squid, chicken, and mushrooms, with bowls costing as little as 600 yen (&asymp;$5 USD). Guests can 
+                    purchase their meal tickets at a kiosk provided by the restaurant and present them to the store employees. Set meals include soup, and beverages such as 
+                    beer and tea, and additional pieces of tempura or other sides can be purchased for an additional price.<br><br>
+                    <b>Capcom Café</b> is a theme café located in Saitama. They offer menu items based on Capcom characters and video games, such as Monster Hunter. The café also
+                    has a souvenir and goods shop with items including T-shirts, posters, and keychains. Guest may even receive a free poster just for 
+                    dining. A reservation is required to eat here, so be sure to book on their website in advance.<br><br>
+                    <b>Flipper's </b>is another chain restaurant that specializes in fluffy, thick pancakes. They currently only have six locations in Japan, with four of them
+                    being in Tokyo. The other two are in Osaka and Aichi. Each pancake meal comes with three pancakes and the topping of your choice, such as pistachios, chocolate
+                    and bananas, fruit, or simply whipped cream. Additional toppings such as ice cream can be added as well. Flipper's has also recently begun to offer brunch
+                    items such as eggs Benedict, salad, and chicken over rice. Beverages including juice, soda, and wine are also available for purchase, and can be added
+                    to your meal to create a set. This is quite a popular chain, so be sure to plan accordingly to avoid having to wait in line longer than expected.<br><br>
+                    <b>Cuisine Française MUTEKIRO</b> in Yokohoma offers a unique Yokohama French cuisine. The restaurant has three floors, each with a different design. The 
+                    1st floor is the main dining area, which has a casual atmosphere and has sommeliers available. The 2nd floor has private tatami rooms, and the 3rd floor
+                    (<i>referred to as the "silk room"</i>) is used for parties, receptions, and other events. The price to dine on both the 1st and 2nd floors start at 6,900 yen for
+                    lunch and 11,000 yen for dinner (&asymp;$53 and $84 USD, respectively), excluding service fees. Both the lunch and dinner menus offer 5-6 course menus that 
+                    include appetizers, a main course, dessert, and coffee. Neighboring the restaurant is their café: <b>Café Next Door</b>, which offers a selection of coffees,
+                    teas, meals, and desserts.
+                </p><br><br>
+                <span class="p-3 border border-5 border-dark rounded-pill">Kansai</span><br><br>
+                <p>
+                    <b>Katsukura</b> is a <i>katsu</i> (fried cutlet) restaurant chain with locations throughout southern and eastern Japan. Their menu consists of cream and crab croquettes,
+                    pork cutlets and specialty katsu such as asparagus wrapped in pork. They also have ice cream and tiramisu, in addition to bento boxes. Some the bento box options
+                    include cutlet sandwiches and grilled pork over rice.<br><br>
+                    <b>MACCHA HOUSE</b> is a matcha specialty café that offers a variety of desserts and drinks. They currently have locations in both the Kanto and Kansai regions. Guests
+                    can enjoy a delicious hot cup of matcha tea, lattes, and floats, and if dessert is preferred, MACCHA HOUSE also has matcha-flavored soft-serve ice cream cones,
+                    tiramisu, and a parfait. This café is perfect for those who love or are interested in the bold, bittersweet taste of matcha and other traditional Japanese flavors.<br><br>
+                    <b>Tokumasa Udon Morinomiya</b> is a popular restaurant located in Osaka near Osaka Castle. The menu consists of various kinds of curry udon and curry rice. Diners can 
+                    add toppings to their dish as they like, with options including cheese, onions, and shrimp tempura. They also offer non-curry items, such as onigiri (<i>rice balls</i>)
+                    and oroshi udon (<i>udon with grated daikon</i>). Their sister restaurant, <b>Friendship</b>, is located on the same block, right around the corner. This restaurant
+                    specializes in Western-style meals and serves katsu, curry, and omurice (<i>an omlette with demi-glace sauce and rice</i>).<br><br>
+                    <b>Shikamaru</b>, a skewer restaurant in Nara, is located a short walk away from Nara Park. The menu consists of a variety of foods, including salad, ramen, 
+                    and seafood, vegetable, and meat skewers. It is a great places for people to spend time with friends, as it offers a very casual atmosphere. If you still have room
+                    for dessert after your meal, there is a mochi shop within walking distance called <b>Nakatanidou</b> that specializes in yomogi mochi (<i>rice cakes made with mugwort
+                    and red bean paste</i>). The shop has been operating for over 25 years, and tourists are often given the opportunity to watch the mochi-pounding process right
+                    outside the store. Visitors to the shop can purchase one of the freshly-made mochi for just 130 yen (about $1 USD), or, if crunchy snacks are preferred, 
+                    the shop also sells both savory and sweet rice crackers.
+                </p><br><br>
+                <span class="p-3 border border-5 border-dark rounded-pill">Everywhere</span><br><br>
+                <p>
+                    Japan is also home to many international chain restaurants, such as <b>McDonald's, KFC, Domino's</b>, and <b>Wendy's</b>. Each restaurant has its own variation of the typical
+                    American menu in addition to the usual items. Here are few examples:
+                    <div class="accordion mt-5" id="trainOperations">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                McDonald's
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#trainOperations">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>bacon potato pie</li>
+                                    <li>teriyaki chicken sandwich</li>
+                                    <li>shrimp fillet burger</li>
+                                    <li>chicken tartar with rice for a bun</li>
+                                    <li>soft serve waffle cone with chocolate and almonds</li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                KFC
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#trainOperations">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>lemon pepper chicken</li>
+                                    <li>chocolate pie</li>
+                                    <li>french fries</li>
+                                    <li>teriyaki chicken wrap</li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Domino's
+                            </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#trainOperations">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>egg custard tart</li>
+                                    <li>seafood special pizza with shrimp, octopus, mussels, and more</li>
+                                    <li>potato wedges</li>
+                                    <li>milkshake</li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Wendy's (<i>Wendy's First Kitchen</i>)
+                            </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#trainOperations">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>carbonara spaghetti</li>
+                                    <li>soft serve with dango (<i>rice dumplings</i>), red bean, and mango</li>
+                                    <li>mini pancakes</li>
+                                    <li>bacon egg burger</li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div><!--end accordion--><br>
+                </p><br>
+                <img class="img-fluid w-75 d-lg-block d-none" src="wendys.jpg">
+                <a class="link-light text-decoration-none fw-bolder d-lg-inline d-none position-fixed bottom-0 end-0" href="#headContent"><button type="button" class="toTop btn btn-secondary btn-lg" id="scrollTopBtn">&uArr;</button></a>
+            </div><!--end right content-->
+          </div><!--end content container-->
+          <div class="myFooter">
+            <footer class="text-center">
+              &copy; CaRyn Newton 2022<br>
+              KanKanKanKou is not affiliated with any of the businesses mentioned or portrayed.
+            </footer>
+          </div>
+        </main><!--end main-->     
+          
+        <!--start javascript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script>
+            var mybutton = document.getElementById("scrollTopBtn");
+
+            mybutton.style.display = "none";
+
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.documentElement.scrollTop > 500) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+        </script>
+    </body>
+    
+</html>
