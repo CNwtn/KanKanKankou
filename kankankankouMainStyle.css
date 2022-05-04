@@ -82,6 +82,9 @@ nav li > a {
   border-radius: 10px;
   font-size: 3rem;
 }
+.list-group {
+  width: 75%;
+}
 ol li {
   font-size: 2rem;
 }
@@ -135,5 +138,19 @@ ol li {
   .card {
     width: 100%;
   }
-  
+  .information {
+    width: 100%;
+  }
+  .list-group {
+    width: 100%;
+  }
+  p {
+    padding: 0px 5px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #airbnbGuide {
+    width: 90%;
+  }
 }
