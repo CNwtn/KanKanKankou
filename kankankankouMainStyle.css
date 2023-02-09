@@ -102,6 +102,7 @@ ol li {
 @media screen and (max-width: 767px) {
   #headContent {
     font-size: 3rem;
+    margin-left: 7%;
   }
   .contentContainer {
     padding-left: 16%;
@@ -122,6 +123,7 @@ ol li {
   }
   .leftContent p, .rightContent p {
     width: 100%;
+    margin-left: 2%;
   }
   .leftContent .accordion, .rightContent .accordion {
     width: 100%;
@@ -141,11 +143,27 @@ ol li {
   .information {
     width: 100%;
   }
+  .information, .leftContent, .rightContent, .sightseeingInfo span {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .information p {
+    width: 100%;
+    margin-left: 2%;
+  }
   .list-group {
     width: 100%;
   }
+  .kansaiInfo, .kantouInfo, .sightseeingInfo {
+    margin-left: 2%;
+  }
   p {
     padding: 0px 5px;
+  }
+  .myFooter {
+    width: 75%;
+    margin-left: 20%;
   }
 }
 
